@@ -1,0 +1,199 @@
+body {
+    background-image: url("./foto/SHOP.png");
+     background-size:100%; 
+    
+    }
+    .foto {
+        height: 100;
+      }
+    
+    .grid-container {
+display: grid ;
+grid-template-columns: auto auto auto;
+
+padding: 20px;
+}
+.grid-container1 {
+justify-content: space-evenly;
+justify-items: center;
+align-content: space-evenly;
+align-items: center;
+display: grid;
+grid-template-columns: auto auto auto auto;
+
+padding: 20px;
+}
+.grid-container2 {
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    
+    padding: 20px;
+    }
+.grid-item {
+
+padding: 20px;
+font-size: 20px;
+text-align: center;
+
+}
+
+.item1 {
+border: 1px solid rgba(0, 0, 0, 0.8);
+grid-column: 1 / span 2;
+grid-row: 1;
+}
+
+.item2 {
+border: 1px solid rgba(0, 0, 0, 0.8);
+grid-column: 1 / span 2;
+grid-row: 2 ;
+}
+
+.item3 {
+border: 1px solid rgba(0, 0, 0, 0.8);
+grid-column: 3;
+grid-row: 1 / span 3;
+}
+
+
+    .fa {
+padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+border-radius: 50%;
+}
+
+.fa:hover {
+opacity: 0.5;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.maps {
+     width: 100%
+ }
+
+/* Tablet landscape*/
+@media  screen and (max-width: 1200px) and (orientation: landscape)
+{
+
+   .grid-container {
+             
+           grid-template-columns: auto auto auto;
+             
+                    }
+           .grid-container1 {
+   
+   grid-template-columns: auto auto;
+                 
+                             }
+                   .grid-container2 {
+                       
+                       grid-template-columns: auto auto auto;
+                                                               
+                                     } 
+}
+
+
+/*Mobile landscape*/
+@media  screen and (max-width: 599px) and (orientation: landscape)
+{
+
+                                    
+                       }
+
+
+/* Tablet portrait*/
+@media  screen and (max-width: 830px) and (orientation: portrait)
+{
+    .grid-container {
+             
+        grid-template-columns: auto auto auto;
+          
+                 }
+        .grid-container1 {
+
+grid-template-columns: auto auto;
+              
+                          }
+                .grid-container2 {
+                    
+                    grid-template-columns: auto auto auto;
+                                                            
+                                  } 
+
+} 
+ /* Mobile portrait*/
+@media  screen and (max-width: 599px) and (orientation: portrait)
+{
+    .foto {
+        height: 20;
+      }
+   .grid-container {
+   
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: flex-start;
+   align-items: stretch;
+   align-content: stretch;
+   padding: 1px;
+
+                      }
+       .grid-container1 {
+   
+           display: flex;
+           flex-direction: column;
+           flex-wrap: nowrap;
+           justify-content: flex-start;
+           align-items: stretch;
+           align-content: stretch;
+           padding: 1px;
+           
+           
+                        }
+               .grid-container2 {
+   
+                   display: flex;
+                   flex-direction: column;
+                   flex-wrap: nowrap;
+                   justify-content: flex-start;
+                   align-items: stretch;
+                   align-content: stretch;
+                   padding: 1px;
+                   
+                   
+                                }
+}
+                        
+
+
+
+   
+                                       
+               
